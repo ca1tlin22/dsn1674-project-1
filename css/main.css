@@ -1,5 +1,5 @@
 html{
-  background-color:#ffe524;
+  background-color:#ffe524
 }
 
 header{
@@ -19,6 +19,8 @@ body{
 
 nav{
   background-color:#ffe524;
+  padding: 0em;
+  text-align: center;
 }
 
 nav ol{
@@ -35,8 +37,8 @@ nav li{
 }
 
 nav a{
-  display: inline-block;
-  padding: 0.2em 0.75em;
+  display:inline-block;
+  padding: 0.2em 1em;
   background-color:#b2a215;
   color: #fff;
   text-decoration: none;
@@ -44,4 +46,9 @@ nav a{
   border-radius: 5px;
   width: 5em;
   text-align: center;
+  font-size: 1.5rem;
+}
+
+p{
+  padding: 0em 0em .5em .5em;
 }
