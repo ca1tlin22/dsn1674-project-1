@@ -80,7 +80,7 @@ nav a{
   font-size: 1.5rem;
 }
 
-a:hover{
+nav a:hover{
   background-color:#b32f52;
 }
 
@@ -93,3 +93,22 @@ blockquote{
   padding: 0em;
   text-align: center;
 }
+
+figure {
+  border: 1px solid #000;
+  border-radius: 10px;
+  border-color:#b2a215;
+  background-color:#fffce0;
+  padding: 1em;
+}
+
+img{
+  width: 100%;
+}
+
+footer a{
+  color:#b32f52;
+}
+ footer a:hover{
+   color:#fff;
+ }
