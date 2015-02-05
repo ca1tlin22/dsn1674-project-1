@@ -17,6 +17,37 @@ body{
   margin: 0em;
 }
 
+footer{
+  background-color:#ffe524;
+  padding: 1em 0em;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Sigmar One', cursive;
+  font-size: 2rem;
+  color:#b32f52;
+  padding: 0em 0em .5em .2em;
+  margin: 0em;
+}
+
+h2{
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.25rem;
+  color:#b32f52;
+  padding: 0em 0em .5em .2em;
+  margin: 0em;
+}
+
+dl{
+  display: inline-block;
+  padding: 0em 0em .5em .5em;
+}
+
+dl dt{
+  font-weight: bold;
+}
+
 nav{
   background-color:#ffe524;
   padding: 0em;
@@ -49,6 +80,16 @@ nav a{
   font-size: 1.5rem;
 }
 
+a:hover{
+  background-color:#b32f52;
+}
+
 p{
   padding: 0em 0em .5em .5em;
+}
+
+blockquote{
+  color:#b2a215;
+  padding: 0em;
+  text-align: center;
 }
