@@ -29,6 +29,7 @@ h1{
   color:#b32f52;
   padding: 0em 0em .5em .2em;
   margin: 0em;
+  border-top: 5px solid #ffe524;
 }
 
 h2{
@@ -39,6 +40,12 @@ h2{
   margin: 0em;
 }
 
+h3{
+  color:#b2a215;
+  font-size:3em;
+  text-align:center;
+}
+
 dl{
   display: inline-block;
   padding: 0em 0em .5em .5em;
@@ -46,6 +53,11 @@ dl{
 
 dl dt{
   font-weight: bold;
+  line-height: 1.5;
+}
+
+dl dd{
+  margin: 0;
 }
 
 nav{
@@ -63,12 +75,12 @@ nav ol{
 
 nav li{
   display: inline-block;
-  margin: .5em;
+  margin: -0.25em 1em 1em -0.25em;
   padding: .25em;
 }
 
 nav a{
-  display:inline-block;
+  display:inline;
   padding: 0.2em 1em;
   background-color:#b2a215;
   color: #fff;
@@ -92,6 +104,8 @@ blockquote{
   color:#b2a215;
   padding: 0em;
   text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 figure {
