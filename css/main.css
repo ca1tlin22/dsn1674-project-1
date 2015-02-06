@@ -8,12 +8,12 @@ header{
   color:#b32f52;
   text-align: center;
   padding:0em;
+  margin: 0em;
   background-color:#ffe524;
 }
 
 body{
   background-color:#fff;
-  padding: 0em;
   margin: 0em;
 }
 
@@ -21,18 +21,29 @@ footer{
   background-color:#ffe524;
   padding: 1em 0em;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 h1{
   font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  color:#b32f52;
+  text-align: center;
+  padding:0em;
+  margin: 0em;
+  background-color:#ffe524;
+}
+
+h2{
+  font-family: 'Sigmar One', cursive;
   font-size: 2rem;
   color:#b32f52;
-  padding: 0em 0em .5em .2em;
+  padding: .5em 0em .5em .2em;
   margin: 0em;
   border-top: 5px solid #ffe524;
 }
 
-h2{
+h3{
   font-family: 'Sigmar One', cursive;
   font-size: 1.25rem;
   color:#b32f52;
@@ -40,15 +51,17 @@ h2{
   margin: 0em;
 }
 
-h3{
+h4{
   color:#b2a215;
   font-size:3em;
   text-align:center;
+  margin: .5em;
 }
 
 dl{
   display: inline-block;
   padding: 0em 0em .5em .5em;
+  margin: 0em 0em 2em 0em;
 }
 
 dl dt{
@@ -97,7 +110,10 @@ nav a:hover{
 }
 
 p{
-  padding: 0em 0em .5em .5em;
+  margin: 0em;
+  padding: .5em 0em .5em .5em;
+  line-height: 1.5em;
+  font-size: 1.25em;
 }
 
 blockquote{
@@ -114,15 +130,23 @@ figure {
   border-color:#b2a215;
   background-color:#fffce0;
   padding: 1em;
+  margin: .5em;
 }
 
 img{
   width: 100%;
 }
 
+figcaption{
+  text-align: center;
+  font-style: italic;
+  padding: 1em 0em;
+}
+
 footer a{
   color:#b32f52;
+  font-size: 1.25rem;
 }
- footer a:hover{
+footer a:hover{
    color:#fff;
  }
